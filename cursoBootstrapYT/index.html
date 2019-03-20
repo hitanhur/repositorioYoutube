@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Prácticas YouTube</title>
+        <!--styles-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        
+        <style media="screen">
+            @media (min-width: 768px) {
+                body {
+                    background: black;
+                }
+            }
+            
+            @media (min-width: 992px) {
+                body {
+                    background: gray;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="text-capitalize text-center">tipografía</h1>
+
+        <h1>Hola Bootstrap</h1>
+        <h2>Hola Bootstrap</h2>
+        <h3>Hola Bootstrap</h3>
+        <h4>Hola Bootstrap</h4>
+        <h5>Hola Bootstrap</h5>
+        <hr>
+        <h5 class="h1">Hola Bootstrap</h5>
+        <h4 class="h2">Hola Bootstrap</h4>
+        <hr>
+        <h1 class="display-1">Hola Bootstrap</h1>
+        <h1 class="display-2">Hola Bootstrap</h1>
+        <h1 class="display-3">Hola Bootstrap</h1>
+        <h1 class="display-4">Hola Bootstrap</h1>
+        <hr>
+        <h1>Hola Bootstrap <span class="text-muted">con HTML</span></h1>
+        <hr>
+        <p>este es un texto de prueba tipo Lorem Ipsum</p>
+        <p class="lead">este es un texto de prueba tipo Lorem Ipsum con "clase Lead"</p>
+        
+        <p class="font-weight-bold">tipos de estilo de letra</p>
+        <p class="font-italic">tipos de estilo de letra</p>
+        <p class="font-normal">tipos de estilo de letra</p>
+        
+        <p class="text-uppercase">hello world</p>
+        <p class="text-lowercase">HELLO WORLD</p>
+        <p class="text-capitalize">hello world</p>
+        
+        <blockquote class="blockquote">
+            <p>esta sería una cita de alguien famoso</p>
+            <footer class="blockquote">Juán N. <cite title="novela 1">Novela 1</cite></footer>
+        </blockquote>
+        
+        <hr>
+        
+        <h1 class="text-capitalize text-center">alineación de textos</h1>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus magna sed commodo hendrerit. Sed vulputate ex eget mollis commodo. Nam consectetur maximus risus eget eleifend. Integer quis ipsum eu ipsum feugiat porta. In purus felis, iaculis non aliquam nec, ultrices sed urna. Suspendisse consectetur eu urna non convallis. Cras.
+        </p>
+        
+        <p class="text-left">hello world</p>
+        <p class="text-center">hello world</p>
+        <p class="text-right">hello world</p>
+        
+        <hr>
+        
+        <p class="text-sm-right">hello world</p>
+        <p class="text-md-right">hello world</p>
+        <p class="text-lg-right">hello world</p>
+        <p class="text-xl-right">hello world</p>
+        
+        <br><br>
+        <p class="text-sm-center">hello world</p>
+        <p class="text-md-center">hello world</p>
+        <p class="text-lg-center">hello world</p>
+        <p class="text-xl-center">hello world</p>
+        
+        <br><br>
+        <span class="align-baseline">hola</span>
+        <span class="align-top">hola</span>
+        <span class="align-bottom">hola</span>
+        <span class="align-middle">hola</span>
+        <span class="align-text-top">hola</span>
+        <span class="align-text-bottom">hola</span>
+        
+        <br><br>
+        <h1 class="bg-success d-inline">Hello</h1>
+        <h2 class="bg-success d-inline">World</h2>
+        
+        <br><br>
+        <span class="bg-success d-block">inline</span>
+        <span class="bg-success d-block">block</span>
+        
+        <br><br>
+        <div class="bg-success d-inline-block">
+            <h1>hello world</h1>
+            <span>hola mundo</span>
+        </div>
+        <div class="bg-success d-inline-block">
+            <h1>hello world</h1>
+            <span>hola mundo</span>
+        </div>
+        
+        <hr>
+        
+        <h1 class="text-capitalize text-center">floats y posiciones fijas</h1>
+        
+        <div class="float-left">
+            hello1
+        </div>
+        <div class="float-right">
+            hello2
+        </div>
+        <div class="float-none">
+            hello3
+        </div>
+        
+        <br><br>
+        <div class="float-sm-right">hello1</div>
+        <div class="float-md-right">hello2</div>
+        <div class="float-lg-right">hello3</div>
+        <div class="float-xl-right">hello4</div>
+        
+        <br><br>
+        <div class="float-sm-left">hello1</div>
+        <div class="float-md-left">hello2</div>
+        <div class="float-lg-left">hello3</div>
+        <div class="float-xl-left">hello4</div>
+        
+        <br>
+        <div class="bg-success clearfix">
+            <button class="float-left">LEFT</button>
+            <button class="float-right">RIGHT</button>
+        </div>
+        
+        <h3 class="sticky-top">Navbar</h3>
+        <p class="text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus magna sed commodo hendrerit. Sed vulputate ex eget mollis commodo. Nam consectetur maximus risus eget eleifend. Integer quis ipsum eu ipsum feugiat porta. In purus felis, iaculis non aliquam nec, ultrices sed urna. Suspendisse consectetur eu urna non convallis. Cras.
+        </p>
+        <p class="text-justify mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus magna sed commodo hendrerit. Sed vulputate ex eget mollis commodo. Nam consectetur maximus risus eget eleifend. Integer quis ipsum eu ipsum feugiat porta. In purus felis, iaculis non aliquam nec, ultrices sed urna. Suspendisse consectetur eu urna non convallis. Cras.
+        </p>
+        <p class="text-justify mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus magna sed commodo hendrerit. Sed vulputate ex eget mollis commodo. Nam consectetur maximus risus eget eleifend. Integer quis ipsum eu ipsum feugiat porta. In purus felis, iaculis non aliquam nec, ultrices sed urna. Suspendisse consectetur eu urna non convallis. Cras.
+        </p>
+        <h3 class="sticky-bottom">Pie de página</h3>
+        
+        <br><br>
+        <h1 class="text-center text-capitalize">clase 6</h1>
+        
+        <p class="bg-dark text-white my-6 p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus magna sed commodo hendrerit. Sed vulputate ex eget mollis commodo. Nam consectetur maximus risus eget eleifend. Integer quis ipsum eu ipsum feugiat porta. In purus felis, iaculis non aliquam nec, ultrices sed urna. Suspendisse consectetur eu urna non convallis. Cras.
+        </p>
+        
+        <p class="bg-warning text-muted my-4 p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus magna sed commodo hendrerit. Sed vulputate ex eget mollis commodo. Nam consectetur maximus risus eget eleifend. Integer quis ipsum eu ipsum feugiat porta. In purus felis, iaculis non aliquam nec, ultrices sed urna. Suspendisse consectetur eu urna non convallis. Cras.
+        </p>
+        
+        <br><br>
+        <h1 class="text-center text-capitalize">clase 8</h1>
+        
+        <div class="bg-primary" style="border: 2px solid #020305; height: 500px;">
+            <div class="bg-warning d-inline-block h-25">
+                one piece
+            </div>
+            <div class="bg-warning d-inline-block h-50">
+                one piece
+            </div>
+            <div class="bg-warning d-inline-block h-75">
+                one piece
+            </div>
+            <div class="bg-warning d-inline-block h-100">
+                one piece
+            </div>
+        </div>
+        
+        <br><br>
+        <h1 class="text-center text-capitalize">clase 10 botones</h1>
+        
+        <a class="btn btn-primary m-4" href="#">E N L A C E</a>
+        <button type="submit" class="btn btn-danger btn-block disabled">
+            <i class="fa fa-user"></i> ENVIAR
+        </button>
+        
+        <input type="reset" class="btn btn-outline-success m-3" value="REFRESH">
+        <button class="btn btn-dark" data-toggle="button">Hola mundo</button>
+        
+        <br>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                ELEGIR
+            </button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">uno</a>
+                <a href="#" class="dropdown-item">dos</a>
+                <a href="#" class="dropdown-item">tres</a>
+            </div>
+        </div>
+        <br><br>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+        
+        <br><br>
+        <div class="btn-group">
+            <button class="btn btn-primary">
+                One Button
+            </button>
+            <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                Dropdown
+            </button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">uno</a>
+                <a href="#" class="dropdown-item">dos</a>
+                <a href="#" class="dropdown-item">tres</a>
+            </div>
+        </div>
+        
+        <br>
+        <div class="btn btn-toolbar" role="toolbar">
+            <div class="btn-group mr-2">
+                <button class="btn btn-secondary">1</button>
+                <button class="btn btn-secondary">2</button>
+                <button class="btn btn-secondary">3</button>
+                <button class="btn btn-secondary">4</button>
+            </div>
+            
+            <div class="btn-group">
+                <button class="btn btn-secondary">5</button>
+                <button class="btn btn-secondary">6</button>
+                <button class="btn btn-secondary">7</button>
+            </div>
+        </div>
+        
+        <div class="btn-group-vertical m-3">
+            <button class="btn btn-warning">arriba</button>
+            <button class="btn btn-warning">medio</button>
+            <button class="btn btn-warning">abajo</button>
+        </div>
+        
+        
+        <!--scripts-->
+<!--
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
